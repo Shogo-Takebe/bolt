@@ -1,11 +1,5 @@
 
 
-/*全てに適応するcss.*/
-
-
-/*ここは、PC用のcss。1200px〜*/
-
-
 .header{
 	width: 100%;
 	background-color: #fff;
@@ -26,6 +20,13 @@
 	color: #fff;
 	font-size: 12px;
 	padding: 14px 12px;
+}
+a{
+	text-decoration: none;
+	display: inline-block;
+}
+img{
+	vertical-align: bottom;
 }
 .main{
 	width: 100%;
@@ -74,7 +75,6 @@
 }
 .bolt__text{
 	font-size: 20px;
-	/*ここを確認*/
 	padding-bottom: 25px; 
 }
 /*ここからOUR LATEST WORK*/
@@ -93,7 +93,6 @@
 	flex-wrap: wrap;
 	margin-bottom: 90px;
 }
-
 .work__contents_img:nth-child(n+4){
 	margin-top: 80px;
 }
@@ -158,6 +157,7 @@
 	font-size: 16px;
 	margin-top: 15px;
 }
+
 /*フォント*/
 .sns{
 	padding-top: 200px;
@@ -186,8 +186,7 @@
 	cursor: pointer;
 }
 
-/*ここからfooeter*/
-
+/*ここから！*/
 .footer{
 	width: 100%;
 	background-color: #74cfae;
@@ -206,7 +205,9 @@
 	text-align: right;
 }
 
+@media screen and(max-width: 1199px){
 
+}
 
 
 
