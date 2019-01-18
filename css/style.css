@@ -1,7 +1,16 @@
 
+a{
+	text-decoration: none;
+	display: inline-block;
+}
+img{
+	vertical-align: bottom;
+}
+
 
 .header{
 	width: 100%;
+	padding: 15px 0;
 	background-color: #fff;
 	position: fixed;
 	z-index: 1;
@@ -9,7 +18,6 @@
 .header__inner{
 	width: 1100px;
 	margin: 0 auto;
-	padding: 15px 0;
 }
 .header__contents{
 	
@@ -21,20 +29,16 @@
 	font-size: 12px;
 	padding: 14px 12px;
 }
-a{
-	text-decoration: none;
-	display: inline-block;
-}
-img{
-	vertical-align: bottom;
-}
+
 .main{
 	width: 100%;
 	background-color: #f2f2f2;
 	padding-top: 78px;
 }
-.main__inner{
+.main__box{
 	padding: 250px 0;
+}
+.main__inner{
 	text-align: center;
 }
 .main__title{
@@ -97,7 +101,7 @@ img{
 	margin-top: 80px;
 }
 .work__link{
-	cursor: pointer;
+	transition: 0.3s all;
 	opacity: 0.7;
 }
 .work__link:hover{
@@ -108,6 +112,7 @@ img{
 .work__email{
 	display: flex;
 	justify-content: flex-start;
+	align-items: center;
 }
 .work__email-text{
 	width: 67%;
@@ -117,7 +122,6 @@ img{
 }
 .work__email_contents{
 	width: 33%;
-	margin-top: 14px;
 }
 .work_email-link{
 	font-size: 12px;
@@ -170,24 +174,23 @@ img{
 	justify-content: center;
 	font-size: 50px;
 }
-.sns__box > a{
-	color: #74cfae;
-}
 .sns__box-link{
+	color: #74cfae;
 	padding: 25px;
 	width: 185px;
 	text-align: center;
 	box-sizing: border-box;
+	transition: 0.3s all;
 }
 .sns__box-link:hover{
 	background-color: #fff;
 	/*全てを表示させるまで0.3秒かける*/
-	transition: 0.3s all;
-	cursor: pointer;
 }
 
 /*ここから！*/
 .footer{
+	padding-top: 20px;
+	padding-bottom: 25px;
 	width: 100%;
 	background-color: #74cfae;
 }
@@ -200,8 +203,6 @@ img{
 }
 .footer__text{
 	color: #fff;
-	padding-top: 20px;
-	padding-bottom: 25px;
 	text-align: right;
 }
 
