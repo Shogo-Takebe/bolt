@@ -144,7 +144,7 @@ img{
 }
 .footer__text{
 	color: #fff;
-	text-align: right;ight;
+	text-align: right;
 }
 .sns__font{
 	padding: 25px;
@@ -390,13 +390,15 @@ img{
 	display: flex;
 	font-size: 50px;
 }
-.sns__box-link{
-	width: 185px;
-}
 
 .sns__box{
 	margin-top: 50px;
+	width: 25%;
 }
+.sns__box-link{
+	width: 100%;
+}
+
 /*ここから！*/
 .footer{
 	padding-top: 20px;
@@ -472,7 +474,6 @@ img{
 	margin-top: 35px;
 	font-size: 20px;
 }
-
 
 /*ここからOUR LATEST WORK*/
 
